@@ -1,0 +1,11 @@
+prefix=/root/giracoin/depends/i686-w64-mingw32
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Giracoin Core consensus library
+Description: Library for the Giracoin consensus protocol.
+Version: 0.13.1
+Libs: -L${libdir} -lgiracoinconsensus
+Cflags: -I${includedir}
+Requires.private: libcrypto

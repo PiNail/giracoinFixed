@@ -1,0 +1,1 @@
+qt/qt_libgiracoinqt_a-qrc_giracoin_locale.o: qt/qrc_giracoin_locale.cpp
